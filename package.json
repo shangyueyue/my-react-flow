@@ -88,5 +88,9 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.61.0",
+    "flow-remove-types": "^1.2.3"
   }
 }
