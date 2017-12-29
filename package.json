@@ -46,7 +46,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "lint": "eslint src --fix"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -91,6 +92,7 @@
     "extends": "react-app"
   },
   "devDependencies": {
+    "eslint-plugin-react": "^7.4.0",
     "flow-bin": "^0.61.0",
     "flow-remove-types": "^1.2.3"
   }
